@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0E0F0C"/>
+  
+  <!-- Off-center composition: brass ring shifted slightly right and up -->
+  <g transform="translate(134, 122)">
+    
+    <!-- Machined brass ring - outer segmented ring with precision cuts -->
+    <!-- Outer ring base -->
+    <circle cx="0" cy="0" r="78" fill="none" stroke="#C4622D" stroke-width="3"/>
+    
+    <!-- Inner machined ring -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#C4622D" stroke-width="1.5"/>
+    
+    <!-- Machined tick marks around the brass ring perimeter -->
+    <g stroke="#C4622D" stroke-width="2">
+      <line x1="0" y1="-78" x2="0" y2="-70"/>
+      <line x1="0" y1="78" x2="0" y2="70"/>
+      <line x1="-78" y1="0" x2="-70" y2="0"/>
+      <line x1="78" y1="0" x2="70" y2="0"/>
+      <!-- Diagonal ticks -->
+      <line x1="55.15" y1="-55.15" x2="49.5" y2="-49.5"/>
+      <line x1="-55.15" y1="-55.15" x2="-49.5" y2="-49.5"/>
+      <line x1="55.15" y1="55.15" x2="49.5" y2="49.5"/>
+      <line x1="-55.15" y1="55.15" x2="-49.5" y2="49.5"/>
+    </g>
+    
+    <!-- Machined segment cuts on outer ring -->
+    <g stroke="#E8E2D2" stroke-width="2.5">
+      <line x1="0" y1="-78" x2="0" y2="-70"/>
+      <line x1="0" y1="78" x2="0" y2="70"/>
+      <line x1="-78" y1="0" x2="-70" y2="0"/>
+      <line x1="78" y1="0" x2="70" y2="0"/>
+    </g>
+    
+    <!-- Inner obsidian keyhole void - geometric, precision cut -->
+    <!-- Keyhole shape: circular top + tapering slot -->
+    <path d="M 0,-38 
+             A 26,26 0 1,1 0,14
+             L 0,14
+             L 14,52
+             L 0,58
+             L -14,52
+             Z" 
+          fill="#0E0F0C" stroke="#E8E2D2" stroke-width="2.5"/>
+    
+    <!-- Obsidian faceted interior - geometric lines -->
+    <path d="M 0,-38 
+             L 12,-24
+             L 10,-6
+             L 0,4
+             L -10,-6
+             L -12,-24
+             Z" 
+          fill="#0E0F0C" stroke="#E8E2D2" stroke-width="1.2" opacity="0.7"/>
+    
+    <!-- Bottom of keyhole slot - faceted -->
+    <path d="M 0,14
+             L 10,42
+             L 0,52
+             L -10,42
+             Z" 
+          fill="#0E0F0C" stroke="#E8E2D2" stroke-width="1.2" opacity="0.7"/>
+    
+    <!-- Warm industrial accent: brass glow at keyhole meeting ring -->
+    <circle cx="0" cy="0" r="4" fill="#C4622D"/>
+    
+    <!-- Mint green accent - terminal focus light -->
+    <!-- Subtle indicator light at top of ring -->
+    <circle cx="0" cy="-78" r="3" fill="#7FD1AE"/>
+    
+    <!-- Tiny mint accent dot bottom right of ring -->
+    <circle cx="55.15" cy="55.15" r="2.5" fill="#7FD1AE"/>
+    
+    <!-- Precision alignment notch top-left -->
+    <path d="M -62,-38 L -54,-38 L -54,-46" fill="none" stroke="#E8E2D2" stroke-width="2"/>
+    
+    <!-- Small brass screw details on ring at 4 corners -->
+    <g fill="#C4622D">
+      <circle cx="-49.5" cy="-49.5" r="3"/>
+      <circle cx="49.5" cy="-49.5" r="3"/>
+      <circle cx="49.5" cy="49.5" r="3"/>
+      <circle cx="-49.5" cy="49.5" r="3"/>
+    </g>
+    <g fill="#0E0F0C" stroke="#E8E2D2" stroke-width="0.8">
+      <circle cx="-49.5" cy="-49.5" r="1"/>
+      <circle cx="49.5" cy="-49.5" r="1"/>
+      <circle cx="49.5" cy="49.5" r="1"/>
+      <circle cx="-49.5" cy="49.5" r="1"/>
+    </g>
+    
+    <!-- Sealing arc detail on lower left of ring -->
+    <path d="M -70,0 A 70,70 0 0,0 -40,56" fill="none" stroke="#C4622D" stroke-width="2" opacity="0.5"/>
+    
+    <!-- Terminal cursor accent - small mint rectangle -->
+    <rect x="20" y="72" width="8" height="2" fill="#7FD1AE" opacity="0.8"/>
+  </g>
+  
+  <!-- Subtle ambient mint dot - terminal focus indicator -->
+  <circle cx="48" cy="210" r="2" fill="#7FD1AE" opacity="0.6"/>
+  
+  <!-- Tiny brass accent bottom-left -->
+  <rect x="82" y="206" width="6" height="1.5" fill="#C4622D" opacity="0.5"/>
+</svg>
